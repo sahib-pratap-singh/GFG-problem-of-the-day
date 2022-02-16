@@ -1,5 +1,5 @@
 <h1>:heavy_check_mark: Find rectangle with corners as 1</h1>
-<blockquote>Given a NxM binary matrix consisting of 0s and 1s. Find if there exists a rectangle/ square within the matrix whose all four corners are 1.  ?</blockquote>
+<blockquote>Given a NxM binary matrix consisting of 0s and 1s. Find if there exists a rectangle/ square within the matrix whose all four corners are 1.</blockquote>
 
 * **Example 1**:<br>
 
