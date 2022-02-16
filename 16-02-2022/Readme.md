@@ -3,38 +3,39 @@
 
 * **Example 1**:<br>
 
-&emsp;&emsp;Input:<br>
-&emsp;&emsp;N = 4, M = 5<br>
-&emsp;&emsp;matrix[][] = <br>
-&emsp;&emsp;{<br>
-&emsp;&emsp;{1 0 0 1 0},<br>
-&emsp;&emsp;{0 0 1 0 1},<br>
-&emsp;&emsp;{0 0 0 1 0}, <br>
-&emsp;&emsp;{1 0 1 0 1}<br>
-&emsp;&emsp;} <br>
+      Input:
+      N = 4, M = 5
+      matrix[][] = 
+      {
+      {1 0 0 1 0},
+      {0 0 1 0 1},
+      {0 0 0 1 0}, 
+      {1 0 1 0 1}
+      } 
 
-&emsp;&emsp;Output: Yes<br>
-&emsp;&emsp;Explanation:<br>
-&emsp;&emsp;Valid corners are at index (1,2), (1,4), (3,2), (3,4) <br>
+      Output: Yes
+      Explanation:
+      Valid corners are at index (1,2), (1,4), (3,2), (3,4)
 
 * **Example 2**:<br>
 
-&emsp;&emsp;Input:<br>
-&emsp;&emsp;N = 3, M = 3<br>
-&emsp;&emsp;matrix[][] = <br>
-&emsp;&emsp;{{0 0 0},<br>
-&emsp;&emsp;{0 0 0},<br>
-&emsp;&emsp;{0 0 0}}<br>
-&emsp;&emsp;Output: No<br>
+      Input:
+      N = 3, M = 3
+      matrix[][] = 
+      {{0 0 0},
+      {0 0 0},
+      {0 0 0}}
+      Output: No
 
-**➔ Your Task**:
-<mark>You don't need to take input or print anything. Complete the function ValidCorners() that takes the given matrix as input parameter and returns a boolean value.</mark>
+**➔ Your Task**
+
+      You don't need to take input or print anything. Complete the function ValidCorners() that takes the given matrix as input parameter and returns a boolean value.
 
 <table align="center">
       <tr><td><em><b>Expected Time Complexity</td> <td><em><b>Expected Auxiliary Space</td></tr>
-      <tr><td align="center">O(N)</td> <td align="center">O(1)</td></tr>
+      <tr><td align="center">O(N*M*M)</td> <td align="center">O(N)</td></tr>
 </table>
 
-#### Constraints 
+### **Constraints** 
 1 <= R, C <= 200<br>
 0 <= A[i] <= 1
