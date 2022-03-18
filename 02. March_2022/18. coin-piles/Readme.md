@@ -1,0 +1,47 @@
+<h1>:heavy_check_mark: Coin Piles</h1>
+
+<blockquote>
+There are N piles of coins each containing  Ai (1<=i<=N) coins. Find the minimum number of coins to be removed such that the absolute difference of coins in any two piles is at most K.
+Note: You can also remove a pile by removing all the coins of that pile.
+</blockquote>
+
+* **Example 1**:<br>
+
+        Input:
+        N = 4, K = 0
+        arr[] = {2, 2, 2, 2}
+        Output:
+        0
+        Explanation:
+        For any two piles the difference in the
+        number of coins is <=0. So no need to
+        remove any coins. 
+
+
+* **Example 2**:<br>
+
+        Input:
+        N = 6, K = 3
+        arr[] = {1, 5, 1, 2, 5, 1} 
+        Output :
+        2
+        Explanation:
+        If we remove one coin each from both
+        the piles containing 5 coins , then
+        for any two piles the absolute difference
+        in the number of coins is <=3. 
+
+**➔ Your Task**
+
+     You don't need to read input or print anything. Your task is to complete the function minSteps() which takes 2 integers N, and K and an array A of size N as input and returns the minimum number of coins that need to be removed.
+
+<table align="center">
+      <tr><td><em><b>Expected Time Complexity</td> <td><em><b>Expected Auxiliary Space</td></tr>
+      <tr><td align="center">O(N*logN)</td> <td align="center">O(N)</td></tr>
+</table>
+
+### **Constraints** 
+
+        1 ≤ N ≤ 105
+        0 ≤ K ≤ 104
+        1 ≤ A[i] ≤ 103
